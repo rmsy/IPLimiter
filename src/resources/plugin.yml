@@ -1,9 +1,9 @@
-name: IPLimiter
-main: tc.oc.iplimiter.IPLimiter
-version: 0.1
-authors:
-- MonsieurApple
-- Anxuiz
+name: ${name}
+main: ${plugin.mainClass}
+prefix: ${plugin.prefix}
+version: ${version}
+author: Overcast Network
+
 commands:
   iplimit:
     aliases: ipl

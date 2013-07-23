@@ -7,6 +7,12 @@
     <version>0.1-SNAPSHOT</version>
     <name>IPLimiter</name>
 
+    <properties>
+        <!-- Plugin properties -->
+        <plugin.mainClass>tc.oc.iplimiter.IPLimiter</plugin.mainClass>
+        <plugin.prefix>IPLimiter</plugin.prefix>
+    </properties>
+
     <!-- Repository Locations -->
     <repositories>
         <repository>
@@ -33,6 +39,7 @@
         <resources>
             <resource>
                 <targetPath>.</targetPath>
+                <filtering>true</filtering>
                 <directory>${basedir}/src/resources/</directory>
             </resource>
         </resources>
